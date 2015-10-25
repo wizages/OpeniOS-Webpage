@@ -1,0 +1,11 @@
+.left{
+	height: 100%;
+	width: 49%;
+	display:inline-block;
+}
+
+.right{
+	height: 100%;
+	width: 49%;
+	display:inline-block;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>OpeniOS</title>
+		<link rel="stylesheet" href="Style/template.css" />
+		<script type="text/JavaScript" src="JS/template.js"></script>
+	</head>
+	<body>
+		<div class = "header">
+			<img src="Resources/logo.png" alt="OpeniOS" class="logo_corner"/>
+			<button class="button" id="home_button" onclick="setURL('index.html', this.id)">
+				<div class="button_text">Home</div>
+			</button>
+			<button class="button" id="projects_button" onclick="setURL('index.html', this.id)">
+				<div class="button_text">Projects</div>
+			</button>
+			<button class="button" id="about_button" onclick="setURL('index.html', this.id)">
+				<div class="button_text">About Us</div>
+			</button>
+		</div>
+		<div class = "footer">
+			<div class="small_text">&copy; 2015 wizages</div>
+		</div>
+		<div class = "main">
+			<iframe id="main_page" src="welcome_page.html" seamless/>
+		</div>
+	</body>
+</html>
